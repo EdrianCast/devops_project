@@ -38,12 +38,12 @@ devops_project/
 ### Database Configuration
 1. **MySQL Configuration (docker-compose.yml):**
 
-Database name: homestead
-Username: homestead
-Password: secret
-Root Password: secret
-Exposed port: 3306
-Configure your Laravel application to use these database credentials directly in the Docker Compose file (docker-compose.yml).
+- Database name: homestead
+- Username: homestead
+- Password: secret
+- Root Password: secret
+- Exposed port: 3306
+- Configure your Laravel application to use these database credentials directly in the Docker Compose file (docker-compose.yml).
 
 ### Running the Application
 1. Start Docker containers:
