@@ -8,5 +8,5 @@
 
 1. Clone the repository:
    ```sh
-   git clone <your-repo-url>
+   git clone https://github.com/EdrianCast/devops_project.git
    cd devops_project
