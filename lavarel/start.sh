@@ -1,8 +1,8 @@
 #!/bin/sh
 
 # Wait for MySQL to be available
-echo "waiting for MySQL. . ."
-while ! nc -Z mysql 3306; do
+echo "waiting for MySQL..."
+while ! nc -z mysql 3306; do
   sleep 1
 done
 echo "MySQL is up - executing command"
@@ -13,3 +13,4 @@ php artisan db:seed --force
 
 # Start PHP-FPM
 php-fpm
+

@@ -44,10 +44,20 @@ services:
     networks:
       - laravel_network
 
+  random_http:
+    image: httpd:latest
+    container_name: random_http
+    networks:
+      - laravel_network
+
 volumes:
   db_data:
 
 networks:
   laravel_network:
     driver: bridge
+
+
+
+
 
