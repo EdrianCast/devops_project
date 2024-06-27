@@ -29,7 +29,7 @@ devops_project/
 ### Environment Setup
 
 1. **Clone the repository:**
-   git clone https://github.com/EdrianCast/devops_project.git
+   git clone <https://github.com/EdrianCast/devops_project.git>
    cd devops_project
    
 1. **Build Docker Compose**
