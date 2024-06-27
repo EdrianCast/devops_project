@@ -29,7 +29,7 @@ devops_project/
 ### Environment Setup
 
 1. **Clone the repository:**
-   git clone <https://github.com/EdrianCast/devops_project.git>
+   git clone <https://github.com/EdrianCast/devops_project.git> <br>
    cd devops_project
    
 1. **Build Docker Compose**
@@ -46,7 +46,7 @@ devops_project/
 - Configure your Laravel application to use these database credentials directly in the Docker Compose file (docker-compose.yml).
 
 ### Running the Application
-1. Start Docker containers: \n
+1. Start Docker containers: <br>
 docker-compose up -d
 
 2. Access the Laravel application: 
@@ -54,6 +54,6 @@ docker-compose up -d
 Open a web browser and go to http://localhost:8080
 
 ### Running Tests
-1. Run tests inside Laravel container: \n
+1. Run tests inside Laravel container: <br>
 docker-compose exec laravel ./vendor/bin/phpunit
 
