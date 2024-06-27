@@ -29,7 +29,7 @@ devops_project/
 ### Environment Setup
 
 1. **Clone the repository:**
-   git clone <repository-url>
+   git clone https://github.com/EdrianCast/devops_project.git
    cd devops_project
    
 1. **Build Docker Compose**
@@ -38,10 +38,10 @@ devops_project/
 ### Database Configuration
 1. **MySQL Configuration (docker-compose.yml):**
 
-- Database name: homestead
-- Username: homestead
-- Password: secret
-- Root Password: secret
+- Database name: laravel
+- Username: user_mysql
+- Password: pass_mysql
+- Root Password: admin_root
 - Exposed port: 3306
 - Configure your Laravel application to use these database credentials directly in the Docker Compose file (docker-compose.yml).
 

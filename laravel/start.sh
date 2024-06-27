@@ -13,4 +13,3 @@ php artisan db:seed --force
 
 # Start PHP-FPM
 php-fpm
-
