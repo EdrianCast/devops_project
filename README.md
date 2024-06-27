@@ -46,14 +46,14 @@ devops_project/
 - Configure your Laravel application to use these database credentials directly in the Docker Compose file (docker-compose.yml).
 
 ### Running the Application
-1. Start Docker containers:
+1. Start Docker containers: \n
 docker-compose up -d
 
-2. Access the Laravel application:
+2. Access the Laravel application: 
 
 Open a web browser and go to http://localhost:8080
 
 ### Running Tests
-1. Run tests inside Laravel container:
+1. Run tests inside Laravel container: \n
 docker-compose exec laravel ./vendor/bin/phpunit
 
