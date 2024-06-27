@@ -28,11 +28,11 @@ devops_project/
 
 ### Environment Setup
 
-1. **Clone the repository:**
+1. **Clone the repository:** <br>
    git clone <https://github.com/EdrianCast/devops_project.git> <br>
    cd devops_project
    
-1. **Build Docker Compose**
+1. **Build Docker Compose** <br>
    docker-compose build
 
 ### Database Configuration
