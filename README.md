@@ -51,7 +51,7 @@ docker-compose up -d
 
 2. Access the Laravel application: 
 
-Open a web browser and go to http://localhost:8080
+Open a web browser and go to http://localhost:8888
 
 ### Running Tests
 1. Run tests inside Laravel container: <br>
